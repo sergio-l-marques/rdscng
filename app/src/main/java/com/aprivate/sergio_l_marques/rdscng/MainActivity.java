@@ -232,6 +232,7 @@ public class MainActivity extends AppCompatActivity {
             //Reading data line by line and storing it into the stringbuffer
             try {
                 while ((inputString = inputReader.readLine()) != null) {
+
                     Scanner scanIn= new Scanner(inputString);
                     String entryType=scanIn.next();
                     int entryIdx=scanIn.nextInt();
