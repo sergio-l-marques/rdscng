@@ -1,0 +1,7 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Java/Declaration/Create Test" />
+    <ignoreAction name="Android/Insert App Indexing API Code" />
+    <ignoreAction name="XML/Collapse empty tag" />
+  </component>
+</application>
