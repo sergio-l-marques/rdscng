@@ -240,6 +240,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if      (entryType.equals("zone")) newZoneStatusObject(entryIdx, entryName);
                     else if (entryType.equals( "pgm")) newCommandOutputObject(entryIdx, entryName);
+
                 }
             } catch (IOException e) {
                 e.printStackTrace();
