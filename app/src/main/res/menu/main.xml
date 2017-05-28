@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="1">
+    </item>
+<!--    <item 
+        android:id="@+id/pgms" 
+        android:title="PGMs Configuration" 
+        android:orderInCategory="2">
+    </item> -->
+    <item 
+        android:id="@+id/dateTime" 
+        android:title="Set Date and Time" 
+        android:orderInCategory="3">
+    </item>
+    <item 
+        android:id="@+id/about" 
+        android:title="About" 
+        android:orderInCategory="4">
+    </item>
+    <item 
+        android:id="@+id/reset" 
+        android:title="Reset" 
+        android:orderInCategory="5">
+    </item>
+    
+</menu>

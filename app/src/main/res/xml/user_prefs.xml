@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@+id/pref_screen" >
+
+    <EditTextPreference
+        android:dialogMessage="Enter Your Host Address"
+        android:dialogTitle="Change Host Address"
+        android:key="haddress"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Submit"
+        android:title="Host Address" 
+        android:order="1">
+    </EditTextPreference>
+    <EditTextPreference
+        android:inputType="number"
+        android:maxLength="6"
+    	android:digits="1234567890"
+        android:dialogMessage="Enter TCP Port"
+        android:dialogTitle="Change TCP Port"
+        android:key="tcport"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Submit"
+        android:title="TCP Port" 
+        android:order="2">
+    </EditTextPreference>
+    <EditTextPreference
+        android:inputType="textPassword"
+    	android:digits="1234567890"
+        android:dialogMessage="Enter Code"
+        android:dialogTitle="Change Code"
+        android:key="dscpass"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Submit"
+        android:title="DSC Connection Code"
+        android:order="3">
+    </EditTextPreference>
+    <EditTextPreference
+        android:inputType="textPassword"
+    	android:digits="1234567890"
+        android:dialogMessage="Enter Code"
+        android:dialogTitle="Change Code"
+        android:key="dscUserCode"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Submit"
+        android:title="DSC User Code"
+        android:order="4">
+    </EditTextPreference>
+    
+</PreferenceScreen>
