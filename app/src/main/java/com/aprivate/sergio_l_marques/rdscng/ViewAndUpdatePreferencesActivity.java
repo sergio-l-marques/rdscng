@@ -15,6 +15,7 @@ public class ViewAndUpdatePreferencesActivity extends FragmentActivity {
     private static final String DSCPASS = "dscpass";
     private static final String DSCCODE = "dscUserCode";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
