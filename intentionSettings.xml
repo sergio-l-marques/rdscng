@@ -3,5 +3,6 @@
     <ignoreAction name="Java/Declaration/Create Test" />
     <ignoreAction name="Android/Insert App Indexing API Code" />
     <ignoreAction name="XML/Collapse empty tag" />
+    <ignoreAction name="Android/Override Resource in Other Configuration..." />
   </component>
 </application>
